@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mTextSensors = findViewById(R.id.textSensors);
-        mTextSensors.setMovementMethod(new ScrollingMovementMethod());
+//        mTextSensors.setMovementMethod(new ScrollingMovementMethod());
 
         sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
 
